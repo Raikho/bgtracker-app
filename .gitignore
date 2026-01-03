@@ -1,3 +1,17 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+#VS CODE
+.vscode/
+
+# Environment
+.evn
+
+
+
+# ========= OTHER =============
+
 # Logs
 logs
 *.log
@@ -38,9 +52,6 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules/
-jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -134,3 +145,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
