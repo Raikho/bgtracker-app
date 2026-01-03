@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title%></title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="city-container">
+        <div class="city">City</div>
+        <div class="edit">Edit</div>
+      </div>
+      <div class="input-container">
+        <input id="city-input" type="text" placeholder="Enter city name: " />
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+    <div id="main">
+      <div class="middle-container">
+        <img class="empty" />
+        <div class="text">
+          <div class="temp"></div>
+        </div>
+        <div class="text">
+          <div class="feels-like"></div>
+        </div>
+        <div class="text">
+          <div class="wind"></div>
+        </div>
+        <div class="text">
+          <div class="desc">loading tracking data...</div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="attribution">
+        <a href="https://www.google.com" title="icons">Icons created by ""</a>
+      </div>
+    </div>
+  </body>
+</html>

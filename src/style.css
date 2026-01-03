@@ -1,0 +1,73 @@
+:root {
+  --bg: #164e63;
+  --bgLighter: #155e75;
+  --fg: #f0f9ff;
+  --fgAlpha: #f0f9ff55;
+
+  --icon: #bfdbfe;
+  --iconHover: #e0f2fe;
+  --iconActive: #028fc7;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+
+  display: grid;
+  grid-template-rows: 1fr 5fr 0.25fr;
+}
+
+/* ============================ HEADER ============================= */
+#header {
+  /* border: 1px dotted lightgray; */
+  background-color: var(--bgLighter);
+  box-shadow: 0px 5px 10px #0003;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============================= MAIN ============================== */
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-container {
+  /* border: 1px dotted lightgray; */
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+/* ============================ FOOTER ============================= */
+
+#footer {
+  background-color: var(--bgLighter);
+  box-shadow: 0px -5px 10px #0003;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 12px;
+  color: var(--fgAlpha);
+  text-decoration: none;
+}
